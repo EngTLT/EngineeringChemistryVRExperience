@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 669284af11307b94cba440643352cf24
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Object__0
+    100002: Object__0.001
+    100004: Object__0.002
+    100006: Object__1
+    100008: Object__2
+    100010: Object__3
+    100012: Object__4
+    100014: Object__4.001
+    100016: Object__4.002
+    100018: Object__5
+    100020: Object__5.001
+    100022: Object__5.002
+    100024: Object__5.003
+    100026: Object__5.004
+    100028: Object__5.005
+    100030: Object__5.006
+    100032: Object__5.007
+    100034: Object__6
+    100036: Object__7
+    100038: Object__8
+    100040: Object__8.001
+    100042: //RootNode
+    100044: removableHood
+    100046: Windows
+    100048: removableHood.002
+    400000: Object__0
+    400002: Object__0.001
+    400004: Object__0.002
+    400006: Object__1
+    400008: Object__2
+    400010: Object__3
+    400012: Object__4
+    400014: Object__4.001
+    400016: Object__4.002
+    400018: Object__5
+    400020: Object__5.001
+    400022: Object__5.002
+    400024: Object__5.003
+    400026: Object__5.004
+    400028: Object__5.005
+    400030: Object__5.006
+    400032: Object__5.007
+    400034: Object__6
+    400036: Object__7
+    400038: Object__8
+    400040: Object__8.001
+    400042: //RootNode
+    400044: removableHood
+    400046: Windows
+    400048: removableHood.002
+    2100000: prius_glass
+    2100002: prius_shields
+    2100004: prius_inside
+    2100006: prius_plate
+    2100008: prius_3stop_led
+    2100010: prius_3stop_mirror
+    2100012: prius_3stop_glass
+    2100014: prius_chrome
+    2100016: prius_body
+    2100018: prius_black
+    2100020: prius_mirror
+    2100022: prius_red
+    2100024: prius_fl_mirror
+    2100026: prius_fl_bulb
+    2100028: prius_fl_lens
+    2100030: prius_fl_mirror2
+    2100032: prius_fl_mirror1
+    2100034: prius_fl_frame
+    2100036: prius_fl_glass
+    2100038: prius_fl_orange
+    2100040: prius_alu
+    2100042: prius_tire
+    2100044: prius_break
+    2100046: prius_side
+    2100048: prius_glass_black
+    2100050: prius_body.002
+    2100052: prius_glass_black.002
+    2100054: prius_alu.002
+    2100056: prius_tire.002
+    2100058: prius_shields.002
+    2100060: prius_break.002
+    2100062: prius_chrome.002
+    2100064: prius_side.002
+    2100066: prius_black.002
+    2100068: prius_plate.002
+    2100070: prius_mirror.002
+    2100072: prius_red.002
+    2100074: prius_3stop_glass.002
+    2100076: prius_3stop_mirror.002
+    2100078: prius_3stop_led.002
+    2100080: prius_inside.002
+    2100082: prius_glass.002
+    2300000: Object__0
+    2300002: Object__0.001
+    2300004: Object__0.002
+    2300006: Object__1
+    2300008: Object__2
+    2300010: Object__3
+    2300012: Object__4
+    2300014: Object__4.001
+    2300016: Object__4.002
+    2300018: Object__5
+    2300020: Object__5.001
+    2300022: Object__5.002
+    2300024: Object__5.003
+    2300026: Object__5.004
+    2300028: Object__5.005
+    2300030: Object__5.006
+    2300032: Object__5.007
+    2300034: Object__6
+    2300036: Object__7
+    2300038: Object__8
+    2300040: Object__8.001
+    2300042: removableHood
+    2300044: Windows
+    2300046: removableHood.002
+    3300000: Object__0
+    3300002: Object__0.001
+    3300004: Object__0.002
+    3300006: Object__1
+    3300008: Object__2
+    3300010: Object__3
+    3300012: Object__4
+    3300014: Object__4.001
+    3300016: Object__4.002
+    3300018: Object__5
+    3300020: Object__5.001
+    3300022: Object__5.002
+    3300024: Object__5.003
+    3300026: Object__5.004
+    3300028: Object__5.005
+    3300030: Object__5.006
+    3300032: Object__5.007
+    3300034: Object__6
+    3300036: Object__7
+    3300038: Object__8
+    3300040: Object__8.001
+    3300042: removableHood
+    3300044: Windows
+    3300046: removableHood.002
+    4300000: Object__8.001
+    4300002: Object__4.002
+    4300004: Object__4.001
+    4300006: Object__5.007
+    4300008: Object__5.006
+    4300010: Object__5.005
+    4300012: Object__5.004
+    4300014: Object__5.003
+    4300016: Object__5.002
+    4300018: Object__5.001
+    4300020: Object__0.002
+    4300022: Object__0.001
+    4300024: Object__7
+    4300026: Object__4
+    4300028: Object__5
+    4300030: Object__0
+    4300032: Object__1
+    4300034: Object__3
+    4300036: Object__6
+    4300038: Object__2
+    4300040: Object__8
+    4300042: removableHood
+    4300044: Windows
+    4300046: removableHood.002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_3stop_glass
+    second: {fileID: 2100000, guid: f92207e7c9b0300409ca8715ea837889, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_3stop_led
+    second: {fileID: 2100000, guid: 3e39256f0bfdc1d4a8f93cb20ab0a236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_3stop_mirror
+    second: {fileID: 2100000, guid: f9b11c222618b0642b00eb66bfb853e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_alu
+    second: {fileID: 2100000, guid: 733d7d91d35c4d24689262b9d2ab81ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_black
+    second: {fileID: 2100000, guid: 23fe90f91e9a8d64aab879764bc0cd09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_body
+    second: {fileID: 2100000, guid: 19016bb017da2b34fa46ddba3fe63363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_break
+    second: {fileID: 2100000, guid: 5629a331b15a3d94e85e0368f86822e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_chrome
+    second: {fileID: 2100000, guid: d351e4333b4e0ef468232c7680d892e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_fl_bulb
+    second: {fileID: 2100000, guid: 90e0c3c891cbbd848be7e05a7b1237d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_fl_frame
+    second: {fileID: 2100000, guid: cfa1197293c19d14c85af5f5c7f14f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_fl_glass
+    second: {fileID: 2100000, guid: 9ffdf7f6983ffc74d96f34ac967c2826, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_fl_lens
+    second: {fileID: 2100000, guid: ca77a3611f015604e980874751b3e700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_fl_mirror
+    second: {fileID: 2100000, guid: 4fabf77c8370953499bdb4beed748f36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_fl_mirror1
+    second: {fileID: 2100000, guid: d9b228c328ecf9c47baeb68b2bd22b17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_fl_mirror2
+    second: {fileID: 2100000, guid: 6234e70f5f37d7646add67570618a998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_fl_orange
+    second: {fileID: 2100000, guid: 2a6169e379200c047832b4cc9dd05c9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_glass
+    second: {fileID: 2100000, guid: a891bae0fb701fa47b01c601cef96d49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_glass_black
+    second: {fileID: 2100000, guid: e9aa3e852c5487c479f474756d3a4ffd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_inside
+    second: {fileID: 2100000, guid: 7f6727607418662488f3f256741841bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_mirror
+    second: {fileID: 2100000, guid: afd4c92745e54d84989526fda232a8c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_plate
+    second: {fileID: 2100000, guid: 7cb21db49d104284eb30f0ae30402e0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_red
+    second: {fileID: 2100000, guid: 39ab47859abc50747b013f3e882f56a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_shields
+    second: {fileID: 2100000, guid: 4d40d2be37c1201408acd7ad0227a900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_side
+    second: {fileID: 2100000, guid: 8529ed2308d2b6546a1dc02e8cf8f0f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prius_tire
+    second: {fileID: 2100000, guid: 8af7388cbb0faf04e90aba7f0cd5d650, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

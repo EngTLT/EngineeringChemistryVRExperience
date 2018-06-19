@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 8718e51ab2c32cd408524fd049ff2842
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: dock_000
+    100002: dock_001
+    100004: dock_002
+    100006: dock_003
+    100008: dock_004
+    100010: dock_005
+    100012: dock_006
+    100014: dock_007
+    100016: dock_008
+    100018: dock_009
+    100020: dock_010
+    100022: dock_011
+    100024: dock_012
+    100026: dock_013
+    100028: dock_014
+    100030: dock_015
+    100032: dock_016
+    100034: dock_017
+    100036: dock_018
+    100038: dock_019
+    100040: dock_020
+    100042: dock_021
+    100044: dock_022
+    100046: dock_023
+    100048: dock_024
+    100050: dock_025
+    100052: dock_026
+    100054: dock_027
+    100056: //RootNode
+    100058: stair
+    400000: dock_000
+    400002: dock_001
+    400004: dock_002
+    400006: dock_003
+    400008: dock_004
+    400010: dock_005
+    400012: dock_006
+    400014: dock_007
+    400016: dock_008
+    400018: dock_009
+    400020: dock_010
+    400022: dock_011
+    400024: dock_012
+    400026: dock_013
+    400028: dock_014
+    400030: dock_015
+    400032: dock_016
+    400034: dock_017
+    400036: dock_018
+    400038: dock_019
+    400040: dock_020
+    400042: dock_021
+    400044: dock_022
+    400046: dock_023
+    400048: dock_024
+    400050: dock_025
+    400052: dock_026
+    400054: dock_027
+    400056: //RootNode
+    400058: stair
+    2100000: dockMat__wlparts_jpg
+    2100002: dockMat
+    2300000: dock_000
+    2300002: dock_001
+    2300004: dock_002
+    2300006: dock_003
+    2300008: dock_004
+    2300010: dock_005
+    2300012: dock_006
+    2300014: dock_007
+    2300016: dock_008
+    2300018: dock_009
+    2300020: dock_010
+    2300022: dock_011
+    2300024: dock_012
+    2300026: dock_013
+    2300028: dock_014
+    2300030: dock_015
+    2300032: dock_016
+    2300034: dock_017
+    2300036: dock_018
+    2300038: dock_019
+    2300040: dock_020
+    2300042: dock_021
+    2300044: dock_022
+    2300046: dock_023
+    2300048: dock_024
+    2300050: dock_025
+    2300052: dock_026
+    2300054: dock_027
+    2300056: stair
+    3300000: dock_000
+    3300002: dock_001
+    3300004: dock_002
+    3300006: dock_003
+    3300008: dock_004
+    3300010: dock_005
+    3300012: dock_006
+    3300014: dock_007
+    3300016: dock_008
+    3300018: dock_009
+    3300020: dock_010
+    3300022: dock_011
+    3300024: dock_012
+    3300026: dock_013
+    3300028: dock_014
+    3300030: dock_015
+    3300032: dock_016
+    3300034: dock_017
+    3300036: dock_018
+    3300038: dock_019
+    3300040: dock_020
+    3300042: dock_021
+    3300044: dock_022
+    3300046: dock_023
+    3300048: dock_024
+    3300050: dock_025
+    3300052: dock_026
+    3300054: dock_027
+    3300056: stair
+    4300000: dock_027
+    4300002: dock_016
+    4300004: dock_026
+    4300006: dock_014
+    4300008: dock_013
+    4300010: dock_025
+    4300012: dock_024
+    4300014: dock_023
+    4300016: dock_021
+    4300018: dock_022
+    4300020: dock_020
+    4300022: dock_019
+    4300024: dock_018
+    4300026: dock_017
+    4300028: dock_015
+    4300030: dock_012
+    4300032: stair
+    4300034: dock_010
+    4300036: dock_009
+    4300038: dock_007
+    4300040: dock_005
+    4300042: dock_008
+    4300044: dock_011
+    4300046: dock_006
+    4300048: dock_004
+    4300050: dock_003
+    4300052: dock_002
+    4300054: dock_001
+    4300056: dock_000
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
