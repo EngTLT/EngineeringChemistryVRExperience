@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: a83daab51285ffa4bb0525c42b558fca
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ball_Carbon_SurfSphere.003
+    100002: Ball_Chlorine_SurfSphere.004
+    100004: Ball_Hydrogen_SurfSphere.003
+    100006: Ball_Nitrogen_SurfSphere.004
+    100008: Ball_Oxygen_SurfSphere.004
+    100010: //RootNode
+    100012: Sticks_Carbon_Sticks_Carbon.003
+    100014: Sticks_Chlorine_Sticks_Chlorine.003
+    100016: Sticks_Cups.001_Sticks_Cups.002
+    100018: Sticks_Cups.002_Sticks_Cups.002
+    100020: Sticks_Cups.003_Sticks_Cups.002
+    100022: Sticks_Cups.004_Sticks_Cups.002
+    100024: Sticks_Cups_Sticks_Cups.002
+    100026: Sticks_Cylinder.001_Sticks_Cylinder.002
+    100028: Sticks_Cylinder.002_Sticks_Cylinder.002
+    100030: Sticks_Cylinder.003_Sticks_Cylinder.002
+    100032: Sticks_Cylinder.004_Sticks_Cylinder.002
+    100034: Sticks_Cylinder_Sticks_Cylinder.002
+    100036: Sticks_Hydrogen_Sticks_Hydrogen.003
+    100038: Sticks_Nitrogen_Sticks_Nitrogen.003
+    100040: Sticks_Oxygen_Sticks_Oxygen.003
+    400000: Ball_Carbon_SurfSphere.003
+    400002: Ball_Chlorine_SurfSphere.004
+    400004: Ball_Hydrogen_SurfSphere.003
+    400006: Ball_Nitrogen_SurfSphere.004
+    400008: Ball_Oxygen_SurfSphere.004
+    400010: //RootNode
+    400012: Sticks_Carbon_Sticks_Carbon.003
+    400014: Sticks_Chlorine_Sticks_Chlorine.003
+    400016: Sticks_Cups.001_Sticks_Cups.002
+    400018: Sticks_Cups.002_Sticks_Cups.002
+    400020: Sticks_Cups.003_Sticks_Cups.002
+    400022: Sticks_Cups.004_Sticks_Cups.002
+    400024: Sticks_Cups_Sticks_Cups.002
+    400026: Sticks_Cylinder.001_Sticks_Cylinder.002
+    400028: Sticks_Cylinder.002_Sticks_Cylinder.002
+    400030: Sticks_Cylinder.003_Sticks_Cylinder.002
+    400032: Sticks_Cylinder.004_Sticks_Cylinder.002
+    400034: Sticks_Cylinder_Sticks_Cylinder.002
+    400036: Sticks_Hydrogen_Sticks_Hydrogen.003
+    400038: Sticks_Nitrogen_Sticks_Nitrogen.003
+    400040: Sticks_Oxygen_Sticks_Oxygen.003
+    2100000: Carbon.006
+    2100002: Chlorine.007
+    2100004: Hydrogen.006
+    2100006: None.007
+    2100008: Nitrogen.006
+    2100010: Oxygen.006
+    2300000: Ball_Carbon_SurfSphere.003
+    2300002: Ball_Chlorine_SurfSphere.004
+    2300004: Ball_Hydrogen_SurfSphere.003
+    2300006: Ball_Nitrogen_SurfSphere.004
+    2300008: Ball_Oxygen_SurfSphere.004
+    2300010: Sticks_Carbon_Sticks_Carbon.003
+    2300012: Sticks_Chlorine_Sticks_Chlorine.003
+    2300014: Sticks_Cups.001_Sticks_Cups.002
+    2300016: Sticks_Cups.002_Sticks_Cups.002
+    2300018: Sticks_Cups.003_Sticks_Cups.002
+    2300020: Sticks_Cups.004_Sticks_Cups.002
+    2300022: Sticks_Cups_Sticks_Cups.002
+    2300024: Sticks_Cylinder.001_Sticks_Cylinder.002
+    2300026: Sticks_Cylinder.002_Sticks_Cylinder.002
+    2300028: Sticks_Cylinder.003_Sticks_Cylinder.002
+    2300030: Sticks_Cylinder.004_Sticks_Cylinder.002
+    2300032: Sticks_Cylinder_Sticks_Cylinder.002
+    2300034: Sticks_Hydrogen_Sticks_Hydrogen.003
+    2300036: Sticks_Nitrogen_Sticks_Nitrogen.003
+    2300038: Sticks_Oxygen_Sticks_Oxygen.003
+    3300000: Ball_Carbon_SurfSphere.003
+    3300002: Ball_Chlorine_SurfSphere.004
+    3300004: Ball_Hydrogen_SurfSphere.003
+    3300006: Ball_Nitrogen_SurfSphere.004
+    3300008: Ball_Oxygen_SurfSphere.004
+    3300010: Sticks_Carbon_Sticks_Carbon.003
+    3300012: Sticks_Chlorine_Sticks_Chlorine.003
+    3300014: Sticks_Cups.001_Sticks_Cups.002
+    3300016: Sticks_Cups.002_Sticks_Cups.002
+    3300018: Sticks_Cups.003_Sticks_Cups.002
+    3300020: Sticks_Cups.004_Sticks_Cups.002
+    3300022: Sticks_Cups_Sticks_Cups.002
+    3300024: Sticks_Cylinder.001_Sticks_Cylinder.002
+    3300026: Sticks_Cylinder.002_Sticks_Cylinder.002
+    3300028: Sticks_Cylinder.003_Sticks_Cylinder.002
+    3300030: Sticks_Cylinder.004_Sticks_Cylinder.002
+    3300032: Sticks_Cylinder_Sticks_Cylinder.002
+    3300034: Sticks_Hydrogen_Sticks_Hydrogen.003
+    3300036: Sticks_Nitrogen_Sticks_Nitrogen.003
+    3300038: Sticks_Oxygen_Sticks_Oxygen.003
+    4300000: Ball_Carbon_SurfSphere.003
+    4300002: Sticks_Cylinder.003_Sticks_Cylinder.002
+    4300004: Sticks_Cylinder.004_Sticks_Cylinder.002
+    4300006: Sticks_Carbon_Sticks_Carbon.003
+    4300008: Sticks_Cups.003_Sticks_Cups.002
+    4300010: Sticks_Cups.004_Sticks_Cups.002
+    4300012: Sticks_Nitrogen_Sticks_Nitrogen.003
+    4300014: Sticks_Cylinder.001_Sticks_Cylinder.002
+    4300016: Sticks_Oxygen_Sticks_Oxygen.003
+    4300018: Ball_Nitrogen_SurfSphere.004
+    4300020: Sticks_Hydrogen_Sticks_Hydrogen.003
+    4300022: Ball_Chlorine_SurfSphere.004
+    4300024: Sticks_Cups.001_Sticks_Cups.002
+    4300026: Sticks_Chlorine_Sticks_Chlorine.003
+    4300028: Sticks_Cylinder.002_Sticks_Cylinder.002
+    4300030: Sticks_Cups.002_Sticks_Cups.002
+    4300032: Sticks_Cylinder_Sticks_Cylinder.002
+    4300034: Ball_Hydrogen_SurfSphere.003
+    4300036: Ball_Oxygen_SurfSphere.004
+    4300038: Sticks_Cups_Sticks_Cups.002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carbon.006
+    second: {fileID: 2100000, guid: 3a5d92d92d117124fabf71122b08e588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chlorine.007
+    second: {fileID: 2100000, guid: cc245123472eb5c46b15dcb48bfb87ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hydrogen.006
+    second: {fileID: 2100000, guid: d68289cc63d980b4e836af8c2340117d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nitrogen.006
+    second: {fileID: 2100000, guid: adc84eecfc51d4848b06f2e6c9a7ca5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None.007
+    second: {fileID: 2100000, guid: 09da80246dc0d45499a24c7fb3b5c44f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oxygen.006
+    second: {fileID: 2100000, guid: 926b6c6e0ed6ee9489a22a88e7abaf69, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

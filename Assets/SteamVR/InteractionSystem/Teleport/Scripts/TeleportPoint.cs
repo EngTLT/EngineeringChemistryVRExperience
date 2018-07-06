@@ -6,8 +6,10 @@
 
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 #if UNITY_EDITOR
 using UnityEditor;
+using System.Collections;
 #endif
 
 namespace Valve.VR.InteractionSystem
@@ -222,12 +224,17 @@ namespace Valve.VR.InteractionSystem
 			if ( !string.IsNullOrEmpty( switchToScene ) )
 			{
 				Debug.Log( "TeleportPoint: Hook up your level loading logic to switch to new scene: " + switchToScene );
+				//Manager.manager.LoadFerryAsync();
+				SceneManager.LoadSceneAsync("WolfeIslandLanding");
 			}
 			else
 			{
 				Debug.LogError( "TeleportPoint: Invalid scene name to switch to: " + switchToScene );
 			}
+
 		}
+
+		
 
 
 		//-------------------------------------------------
@@ -309,7 +316,10 @@ namespace Valve.VR.InteractionSystem
 
 			ReleaseRelevantComponents();
 		}
+
 	}
+
+
 
 
 #if UNITY_EDITOR

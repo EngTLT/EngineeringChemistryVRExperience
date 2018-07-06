@@ -1,0 +1,1184 @@
+fileFormatVersion: 2
+guid: b1dc1294868e5a44a81bb5b0541c6d76
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 2nd floor_001
+    100002: //RootNode
+    100004: Bathtub_60x32_001
+    100006: Component#1_001
+    100008: Component#1_002
+    100010: Component#2_001
+    100012: Component#2_002
+    100014: Component#2_003
+    100016: Component#2_004
+    100018: Component#2_005
+    100020: Component#2_006
+    100022: Component#2_007
+    100024: Component#2_008
+    100026: Component#2_009
+    100028: Component#2_010
+    100030: Component#2_011
+    100032: Component#2_012
+    100034: Component#3_001
+    100036: Component#3_003
+    100038: Component#3_005
+    100040: Component#3_007
+    100042: Component#3_009
+    100044: Component#3_011
+    100046: Component#4_001
+    100048: Component#4_002
+    100050: Component#4_003
+    100052: Component#5_001
+    100054: Component#5_002
+    100056: Component#5_003
+    100058: Component#5_004
+    100060: Component#5_005
+    100062: Component#5_006
+    100064: Component#5_007
+    100066: Component#5_008
+    100068: Component#6_001
+    100070: doorknob_half_001
+    100072: doorknob_half_003
+    100074: doorknob_half_005
+    100076: doorknob_half_007
+    100078: Doorknob_Lever_Utility_001
+    100080: Doorknob_Lever_Utility_002
+    100082: Doorknob_Lever_Utility_003
+    100084: Doorknob_Lever_Utility_004
+    100086: Doorknob_Lever_Utility_005
+    100088: Doorknob_Lever_Utility_006
+    100090: Doorknob_Lever_Utility_007
+    100092: Doorknob_Lever_Utility_008
+    100094: Doorknob_Lever_Utility_009
+    100096: Doorknob_Lever_Utility_010
+    100098: Doorknob_Lever_Utility_011
+    100100: Doorknob_Lever_Utility_012
+    100102: Doorknob_Lever_Utility_013
+    100104: Doorknob_Lever_Utility_014
+    100106: Doorknob_Lever_Utility_015
+    100108: Doorknob_Lever_Utility_016
+    100110: Doorknob_Lever_Utility_017
+    100112: Doorknob_Lever_Utility_018
+    100114: Doorknob_Lever_Utility_019
+    100116: Doorknob_Lever_Utility_020
+    100118: Doorknob_Lever_Utility_021
+    100120: Doorknob_Lever_Utility_022
+    100122: Doorknob_Lever_Utility_023
+    100124: Doorknob_Lever_Utility_024
+    100126: Doorknob_Lever_Utility_025
+    100128: Doorknob_Lever_Utility_026
+    100130: Doorknob_Lever_Utility_027
+    100132: Group#5_001
+    100134: Group#5_002
+    100136: Group#5_003
+    100138: Group#5_004
+    100140: Group_001
+    100142: Group_002
+    100144: Group_003
+    100146: Group_004
+    100148: Group_005
+    100150: Group_006
+    100152: Group_007
+    100154: Group_008
+    100156: Group_009
+    100158: Group_010
+    100160: Group_011
+    100162: Group_012
+    100164: Group_013
+    100166: Group_014
+    100168: Group_015
+    100170: Group_016
+    100172: Group_017
+    100174: Group_018
+    100176: Group_019
+    100178: Group_020
+    100180: Group_021
+    100182: Group_022
+    100184: Group_023
+    100186: Group_024
+    100188: Group_025
+    100190: Group_026
+    100192: half#1_001
+    100194: half#1_002
+    100196: half_001
+    100198: half_002
+    100200: Kitchen Stove_001
+    100202: Layer0_001
+    100204: Refrigerator Large_001
+    100206: roof_001
+    100208: sink and mirror_001
+    100210: sink_quarter_001
+    100212: sink_quarter_002
+    100214: sink_quarter_003
+    100216: sink_quarter_004
+    100218: sink_quarter_005
+    100220: sink_quarter_006
+    100222: sink_quarter_007
+    100224: sink_quarter_008
+    100226: To basement_001
+    100228: Toilet2_001
+    100230: Toilet2_003
+    100232: Toilet2_005
+    400000: 2nd floor_001
+    400002: //RootNode
+    400004: Bathtub_60x32_001
+    400006: Component#1_001
+    400008: Component#1_002
+    400010: Component#2_001
+    400012: Component#2_002
+    400014: Component#2_003
+    400016: Component#2_004
+    400018: Component#2_005
+    400020: Component#2_006
+    400022: Component#2_007
+    400024: Component#2_008
+    400026: Component#2_009
+    400028: Component#2_010
+    400030: Component#2_011
+    400032: Component#2_012
+    400034: Component#3_001
+    400036: Component#3_003
+    400038: Component#3_005
+    400040: Component#3_007
+    400042: Component#3_009
+    400044: Component#3_011
+    400046: Component#4_001
+    400048: Component#4_002
+    400050: Component#4_003
+    400052: Component#5_001
+    400054: Component#5_002
+    400056: Component#5_003
+    400058: Component#5_004
+    400060: Component#5_005
+    400062: Component#5_006
+    400064: Component#5_007
+    400066: Component#5_008
+    400068: Component#6_001
+    400070: doorknob_half_001
+    400072: doorknob_half_003
+    400074: doorknob_half_005
+    400076: doorknob_half_007
+    400078: Doorknob_Lever_Utility_001
+    400080: Doorknob_Lever_Utility_002
+    400082: Doorknob_Lever_Utility_003
+    400084: Doorknob_Lever_Utility_004
+    400086: Doorknob_Lever_Utility_005
+    400088: Doorknob_Lever_Utility_006
+    400090: Doorknob_Lever_Utility_007
+    400092: Doorknob_Lever_Utility_008
+    400094: Doorknob_Lever_Utility_009
+    400096: Doorknob_Lever_Utility_010
+    400098: Doorknob_Lever_Utility_011
+    400100: Doorknob_Lever_Utility_012
+    400102: Doorknob_Lever_Utility_013
+    400104: Doorknob_Lever_Utility_014
+    400106: Doorknob_Lever_Utility_015
+    400108: Doorknob_Lever_Utility_016
+    400110: Doorknob_Lever_Utility_017
+    400112: Doorknob_Lever_Utility_018
+    400114: Doorknob_Lever_Utility_019
+    400116: Doorknob_Lever_Utility_020
+    400118: Doorknob_Lever_Utility_021
+    400120: Doorknob_Lever_Utility_022
+    400122: Doorknob_Lever_Utility_023
+    400124: Doorknob_Lever_Utility_024
+    400126: Doorknob_Lever_Utility_025
+    400128: Doorknob_Lever_Utility_026
+    400130: Doorknob_Lever_Utility_027
+    400132: Group#5_001
+    400134: Group#5_002
+    400136: Group#5_003
+    400138: Group#5_004
+    400140: Group_001
+    400142: Group_002
+    400144: Group_003
+    400146: Group_004
+    400148: Group_005
+    400150: Group_006
+    400152: Group_007
+    400154: Group_008
+    400156: Group_009
+    400158: Group_010
+    400160: Group_011
+    400162: Group_012
+    400164: Group_013
+    400166: Group_014
+    400168: Group_015
+    400170: Group_016
+    400172: Group_017
+    400174: Group_018
+    400176: Group_019
+    400178: Group_020
+    400180: Group_021
+    400182: Group_022
+    400184: Group_023
+    400186: Group_024
+    400188: Group_025
+    400190: Group_026
+    400192: half#1_001
+    400194: half#1_002
+    400196: half_001
+    400198: half_002
+    400200: Kitchen Stove_001
+    400202: Layer0_001
+    400204: Refrigerator Large_001
+    400206: roof_001
+    400208: sink and mirror_001
+    400210: sink_quarter_001
+    400212: sink_quarter_002
+    400214: sink_quarter_003
+    400216: sink_quarter_004
+    400218: sink_quarter_005
+    400220: sink_quarter_006
+    400222: sink_quarter_007
+    400224: sink_quarter_008
+    400226: To basement_001
+    400228: Toilet2_001
+    400230: Toilet2_003
+    400232: Toilet2_005
+    2100000: No Name
+    2100002: dbl_2nd floor_021
+    2100004: dbl_Component#6_001
+    2100006: dbl_Layer0_005
+    2100008: dbl_Toilet2_001
+    2100010: dbl_Toilet2_002
+    2100012: dbl_Refrigerator Large_003
+    2100014: dbl_Refrigerator Large_001
+    2100016: dbl_2nd floor_029
+    2100018: dbl_Refrigerator Large_004
+    2100020: dbl_Refrigerator Large_005
+    2100022: dbl_Refrigerator Large_002
+    2100024: dbl_Kitchen Stove_001
+    2100026: dbl_Kitchen Stove_002
+    2100028: dbl_Kitchen Stove_003
+    2100030: dbl_Kitchen Stove_004
+    2100032: dbl_Kitchen Stove_005
+    2100034: dbl_Kitchen Stove_006
+    2100036: dbl_Kitchen Stove_007
+    2100038: dbl_2nd floor_001
+    2100040: dbl_sink and mirror_001
+    2100042: dbl_sink and mirror_002
+    2100044: dbl_Layer0_025
+    2100046: dbl_sink and mirror_003
+    2100048: dbl_Layer0_015
+    2100050: dbl_Component#1_001
+    2100052: dbl_2nd floor_015
+    2100054: dbl_2nd floor_018
+    2100056: dbl_2nd floor_008
+    2100058: dbl_Component#2_001
+    2100060: dbl_Component#3_001
+    2100062: dbl_Layer0_011
+    2100064: dbl_Layer0_001
+    2100066: dbl_Layer0_002
+    2100068: dbl_2nd floor_009
+    2100070: dbl_Layer0_003
+    2100072: dbl_Layer0_004
+    2100074: dbl_2nd floor_010
+    2100076: dbl_Layer0_006
+    2100078: dbl_Layer0_007
+    2100080: dbl_Layer0_008
+    2100082: dbl_Layer0_009
+    2100084: dbl_Layer0_010
+    2100086: dbl_Layer0_012
+    2100088: dbl_Layer0_013
+    2100090: dbl_Layer0_014
+    2100092: dbl_Layer0_016
+    2100094: dbl_Layer0_017
+    2100096: dbl_2nd floor_003
+    2100098: dbl_Layer0_018
+    2100100: dbl_2nd floor_007
+    2100102: dbl_Layer0_019
+    2100104: dbl_Layer0_020
+    2100106: dbl_Layer0_021
+    2100108: dbl_Layer0_022
+    2100110: dbl_Layer0_023
+    2100112: dbl_Layer0_024
+    2100114: dbl_Layer0_026
+    2100116: dbl_2nd floor_024
+    2100118: dbl_2nd floor_025
+    2100120: dbl_Layer0_027
+    2100122: dbl_Layer0_028
+    2100124: dbl_Layer0_029
+    2100126: dbl_2nd floor_017
+    2100128: dbl_Layer0_030
+    2100130: dbl_Layer0_031
+    2100132: dbl_2nd floor_006
+    2100134: dbl_roof_001
+    2100136: dbl_2nd floor_013
+    2100138: dbl_2nd floor_011
+    2100140: dbl_roof_002
+    2100142: dbl_roof_003
+    2100144: dbl_roof_004
+    2100146: dbl_2nd floor_023
+    2100148: dbl_2nd floor_002
+    2100150: dbl_2nd floor_004
+    2100152: dbl_2nd floor_005
+    2100154: dbl_2nd floor_012
+    2100156: dbl_2nd floor_014
+    2100158: dbl_2nd floor_016
+    2100160: dbl_2nd floor_019
+    2100162: dbl_2nd floor_020
+    2100164: dbl_2nd floor_022
+    2100166: dbl_2nd floor_026
+    2100168: dbl_2nd floor_027
+    2100170: dbl_2nd floor_028
+    2300000: 2nd floor_001
+    2300002: Bathtub_60x32_001
+    2300004: Component#1_001
+    2300006: Component#1_002
+    2300008: Component#2_001
+    2300010: Component#2_002
+    2300012: Component#2_003
+    2300014: Component#2_004
+    2300016: Component#2_005
+    2300018: Component#2_006
+    2300020: Component#2_007
+    2300022: Component#2_008
+    2300024: Component#2_009
+    2300026: Component#2_010
+    2300028: Component#2_011
+    2300030: Component#2_012
+    2300032: Component#3_001
+    2300034: Component#3_003
+    2300036: Component#3_005
+    2300038: Component#3_007
+    2300040: Component#3_009
+    2300042: Component#3_011
+    2300044: Component#4_001
+    2300046: Component#4_002
+    2300048: Component#4_003
+    2300050: Component#5_001
+    2300052: Component#5_002
+    2300054: Component#5_003
+    2300056: Component#5_004
+    2300058: Component#5_005
+    2300060: Component#5_006
+    2300062: Component#5_007
+    2300064: Component#5_008
+    2300066: Component#6_001
+    2300068: doorknob_half_001
+    2300070: doorknob_half_003
+    2300072: doorknob_half_005
+    2300074: doorknob_half_007
+    2300076: Doorknob_Lever_Utility_001
+    2300078: Doorknob_Lever_Utility_002
+    2300080: Doorknob_Lever_Utility_003
+    2300082: Doorknob_Lever_Utility_004
+    2300084: Doorknob_Lever_Utility_005
+    2300086: Doorknob_Lever_Utility_006
+    2300088: Doorknob_Lever_Utility_007
+    2300090: Doorknob_Lever_Utility_008
+    2300092: Doorknob_Lever_Utility_009
+    2300094: Doorknob_Lever_Utility_010
+    2300096: Doorknob_Lever_Utility_011
+    2300098: Doorknob_Lever_Utility_012
+    2300100: Doorknob_Lever_Utility_013
+    2300102: Doorknob_Lever_Utility_014
+    2300104: Doorknob_Lever_Utility_015
+    2300106: Doorknob_Lever_Utility_016
+    2300108: Doorknob_Lever_Utility_017
+    2300110: Doorknob_Lever_Utility_018
+    2300112: Doorknob_Lever_Utility_019
+    2300114: Doorknob_Lever_Utility_020
+    2300116: Doorknob_Lever_Utility_021
+    2300118: Doorknob_Lever_Utility_022
+    2300120: Doorknob_Lever_Utility_023
+    2300122: Doorknob_Lever_Utility_024
+    2300124: Doorknob_Lever_Utility_025
+    2300126: Doorknob_Lever_Utility_026
+    2300128: Doorknob_Lever_Utility_027
+    2300130: Group#5_001
+    2300132: Group#5_002
+    2300134: Group#5_003
+    2300136: Group#5_004
+    2300138: Group_001
+    2300140: Group_002
+    2300142: Group_003
+    2300144: Group_004
+    2300146: Group_005
+    2300148: Group_006
+    2300150: Group_007
+    2300152: Group_008
+    2300154: Group_009
+    2300156: Group_010
+    2300158: Group_011
+    2300160: Group_012
+    2300162: Group_013
+    2300164: Group_014
+    2300166: Group_015
+    2300168: Group_016
+    2300170: Group_017
+    2300172: Group_018
+    2300174: Group_019
+    2300176: Group_020
+    2300178: Group_021
+    2300180: Group_022
+    2300182: Group_023
+    2300184: Group_024
+    2300186: Group_025
+    2300188: Group_026
+    2300190: half#1_001
+    2300192: half#1_002
+    2300194: half_001
+    2300196: half_002
+    2300198: Kitchen Stove_001
+    2300200: Layer0_001
+    2300202: Refrigerator Large_001
+    2300204: roof_001
+    2300206: sink and mirror_001
+    2300208: sink_quarter_001
+    2300210: sink_quarter_002
+    2300212: sink_quarter_003
+    2300214: sink_quarter_004
+    2300216: sink_quarter_005
+    2300218: sink_quarter_006
+    2300220: sink_quarter_007
+    2300222: sink_quarter_008
+    2300224: To basement_001
+    2300226: Toilet2_001
+    2300228: Toilet2_003
+    2300230: Toilet2_005
+    3300000: 2nd floor_001
+    3300002: Bathtub_60x32_001
+    3300004: Component#1_001
+    3300006: Component#1_002
+    3300008: Component#2_001
+    3300010: Component#2_002
+    3300012: Component#2_003
+    3300014: Component#2_004
+    3300016: Component#2_005
+    3300018: Component#2_006
+    3300020: Component#2_007
+    3300022: Component#2_008
+    3300024: Component#2_009
+    3300026: Component#2_010
+    3300028: Component#2_011
+    3300030: Component#2_012
+    3300032: Component#3_001
+    3300034: Component#3_003
+    3300036: Component#3_005
+    3300038: Component#3_007
+    3300040: Component#3_009
+    3300042: Component#3_011
+    3300044: Component#4_001
+    3300046: Component#4_002
+    3300048: Component#4_003
+    3300050: Component#5_001
+    3300052: Component#5_002
+    3300054: Component#5_003
+    3300056: Component#5_004
+    3300058: Component#5_005
+    3300060: Component#5_006
+    3300062: Component#5_007
+    3300064: Component#5_008
+    3300066: Component#6_001
+    3300068: doorknob_half_001
+    3300070: doorknob_half_003
+    3300072: doorknob_half_005
+    3300074: doorknob_half_007
+    3300076: Doorknob_Lever_Utility_001
+    3300078: Doorknob_Lever_Utility_002
+    3300080: Doorknob_Lever_Utility_003
+    3300082: Doorknob_Lever_Utility_004
+    3300084: Doorknob_Lever_Utility_005
+    3300086: Doorknob_Lever_Utility_006
+    3300088: Doorknob_Lever_Utility_007
+    3300090: Doorknob_Lever_Utility_008
+    3300092: Doorknob_Lever_Utility_009
+    3300094: Doorknob_Lever_Utility_010
+    3300096: Doorknob_Lever_Utility_011
+    3300098: Doorknob_Lever_Utility_012
+    3300100: Doorknob_Lever_Utility_013
+    3300102: Doorknob_Lever_Utility_014
+    3300104: Doorknob_Lever_Utility_015
+    3300106: Doorknob_Lever_Utility_016
+    3300108: Doorknob_Lever_Utility_017
+    3300110: Doorknob_Lever_Utility_018
+    3300112: Doorknob_Lever_Utility_019
+    3300114: Doorknob_Lever_Utility_020
+    3300116: Doorknob_Lever_Utility_021
+    3300118: Doorknob_Lever_Utility_022
+    3300120: Doorknob_Lever_Utility_023
+    3300122: Doorknob_Lever_Utility_024
+    3300124: Doorknob_Lever_Utility_025
+    3300126: Doorknob_Lever_Utility_026
+    3300128: Doorknob_Lever_Utility_027
+    3300130: Group#5_001
+    3300132: Group#5_002
+    3300134: Group#5_003
+    3300136: Group#5_004
+    3300138: Group_001
+    3300140: Group_002
+    3300142: Group_003
+    3300144: Group_004
+    3300146: Group_005
+    3300148: Group_006
+    3300150: Group_007
+    3300152: Group_008
+    3300154: Group_009
+    3300156: Group_010
+    3300158: Group_011
+    3300160: Group_012
+    3300162: Group_013
+    3300164: Group_014
+    3300166: Group_015
+    3300168: Group_016
+    3300170: Group_017
+    3300172: Group_018
+    3300174: Group_019
+    3300176: Group_020
+    3300178: Group_021
+    3300180: Group_022
+    3300182: Group_023
+    3300184: Group_024
+    3300186: Group_025
+    3300188: Group_026
+    3300190: half#1_001
+    3300192: half#1_002
+    3300194: half_001
+    3300196: half_002
+    3300198: Kitchen Stove_001
+    3300200: Layer0_001
+    3300202: Refrigerator Large_001
+    3300204: roof_001
+    3300206: sink and mirror_001
+    3300208: sink_quarter_001
+    3300210: sink_quarter_002
+    3300212: sink_quarter_003
+    3300214: sink_quarter_004
+    3300216: sink_quarter_005
+    3300218: sink_quarter_006
+    3300220: sink_quarter_007
+    3300222: sink_quarter_008
+    3300224: To basement_001
+    3300226: Toilet2_001
+    3300228: Toilet2_003
+    3300230: Toilet2_005
+    4300000: To basement_001
+    4300002: half_002
+    4300004: half_001
+    4300006: half#1_002
+    4300008: half#1_001
+    4300010: Bathtub_60x32_001
+    4300012: Doorknob_Lever_Utility_027
+    4300014: Doorknob_Lever_Utility_026
+    4300016: Component#6_001
+    4300018: Toilet2_005
+    4300020: sink_quarter_008
+    4300022: sink_quarter_007
+    4300024: sink_quarter_006
+    4300026: sink_quarter_005
+    4300028: Toilet2_003
+    4300030: Kitchen Stove_001
+    4300032: Toilet2_001
+    4300034: sink and mirror_001
+    4300036: Refrigerator Large_001
+    4300038: Doorknob_Lever_Utility_025
+    4300040: doorknob_half_007
+    4300042: doorknob_half_005
+    4300044: Component#1_002
+    4300046: Doorknob_Lever_Utility_024
+    4300048: doorknob_half_003
+    4300050: doorknob_half_001
+    4300052: Component#1_001
+    4300054: sink_quarter_004
+    4300056: sink_quarter_003
+    4300058: sink_quarter_002
+    4300060: sink_quarter_001
+    4300062: Component#2_012
+    4300064: Component#2_011
+    4300066: Component#2_010
+    4300068: Component#2_009
+    4300070: Component#2_008
+    4300072: Component#2_007
+    4300074: Component#2_006
+    4300076: Component#2_005
+    4300078: Component#2_004
+    4300080: Component#2_003
+    4300082: Component#2_002
+    4300084: Component#2_001
+    4300086: Component#4_003
+    4300088: Component#5_008
+    4300090: Component#5_007
+    4300092: Component#5_006
+    4300094: Component#5_005
+    4300096: Component#5_004
+    4300098: Component#5_003
+    4300100: Component#5_002
+    4300102: Component#5_001
+    4300104: Component#4_002
+    4300106: Component#4_001
+    4300108: Component#3_011
+    4300110: Component#3_009
+    4300112: Component#3_007
+    4300114: Component#3_005
+    4300116: Component#3_003
+    4300118: Component#3_001
+    4300120: Group_026
+    4300122: Group_025
+    4300124: Group_024
+    4300126: Group#5_004
+    4300128: Group_023
+    4300130: Group#5_003
+    4300132: Group_022
+    4300134: Group_021
+    4300136: Group#5_002
+    4300138: Group_020
+    4300140: Group#5_001
+    4300142: Group_019
+    4300144: Doorknob_Lever_Utility_023
+    4300146: Doorknob_Lever_Utility_022
+    4300148: Group_018
+    4300150: Doorknob_Lever_Utility_021
+    4300152: Doorknob_Lever_Utility_020
+    4300154: Group_017
+    4300156: Doorknob_Lever_Utility_019
+    4300158: Doorknob_Lever_Utility_018
+    4300160: Group_016
+    4300162: Doorknob_Lever_Utility_017
+    4300164: Doorknob_Lever_Utility_016
+    4300166: Group_015
+    4300168: Doorknob_Lever_Utility_015
+    4300170: Doorknob_Lever_Utility_014
+    4300172: Group_014
+    4300174: Doorknob_Lever_Utility_013
+    4300176: Group_013
+    4300178: Group_012
+    4300180: Group_011
+    4300182: Group_010
+    4300184: Group_009
+    4300186: Group_008
+    4300188: Group_007
+    4300190: Doorknob_Lever_Utility_012
+    4300192: Doorknob_Lever_Utility_011
+    4300194: Group_006
+    4300196: Doorknob_Lever_Utility_010
+    4300198: Doorknob_Lever_Utility_009
+    4300200: Group_005
+    4300202: Doorknob_Lever_Utility_008
+    4300204: Doorknob_Lever_Utility_007
+    4300206: Group_004
+    4300208: Doorknob_Lever_Utility_006
+    4300210: Doorknob_Lever_Utility_005
+    4300212: Group_003
+    4300214: Doorknob_Lever_Utility_004
+    4300216: Doorknob_Lever_Utility_003
+    4300218: Group_002
+    4300220: Doorknob_Lever_Utility_002
+    4300222: Doorknob_Lever_Utility_001
+    4300224: Group_001
+    4300226: Layer0_001
+    4300228: roof_001
+    4300230: 2nd floor_001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 48cf6ff5f692fc843a87e4c9016eab99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_001
+    second: {fileID: 2100000, guid: 8cb584be152ba4e4d98dcef67a678eb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_002
+    second: {fileID: 2100000, guid: a1c4a2d375fce8e44892b331a42f38fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_003
+    second: {fileID: 2100000, guid: 24e1cf21dec46ca4f93aff3d7743f70f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_004
+    second: {fileID: 2100000, guid: 2902a5818d8b84b459886cf2f4c50835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_005
+    second: {fileID: 2100000, guid: a270461ad6c102b419a5f5797c2b3580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_006
+    second: {fileID: 2100000, guid: ec457bfaf2c728d429bd9752ad677f12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_007
+    second: {fileID: 2100000, guid: 9f279728f0a420147b142545f8120d4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_008
+    second: {fileID: 2100000, guid: 48981c22245ccdc4295812e0f344721f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_009
+    second: {fileID: 2100000, guid: 26baed9c1c45f4747b0d1fb5b5dd8db6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_010
+    second: {fileID: 2100000, guid: e032721b4d295fa448b42e90ab0a4733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_011
+    second: {fileID: 2100000, guid: d2a8dab328955a94e9059d9aaee114e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_012
+    second: {fileID: 2100000, guid: 17f71266a1d9a3447a3628967eb4baf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_013
+    second: {fileID: 2100000, guid: 5e958b3263785cb4d8b95f629b6c76c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_014
+    second: {fileID: 2100000, guid: 5bb23acfed1be544480078993de0684d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_015
+    second: {fileID: 2100000, guid: 2e185670a59ebcc4cbe2bedb7cb91853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_016
+    second: {fileID: 2100000, guid: 2613b1c85aacf8345882501f5f8a7d20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_017
+    second: {fileID: 2100000, guid: 78999ff83b227d347832ba9f14f08f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_018
+    second: {fileID: 2100000, guid: e03a91e982da9604ca4e5352d0e270b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_019
+    second: {fileID: 2100000, guid: 937cf4a627797a647b3559cde736a0e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_020
+    second: {fileID: 2100000, guid: 9c79423a7b6cf2e4b8889cfa57e417d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_021
+    second: {fileID: 2100000, guid: f2784f4eba305814c8c087aabc8025ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_022
+    second: {fileID: 2100000, guid: 6a5598c7e8cb8c043b5ea6e6682e7683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_023
+    second: {fileID: 2100000, guid: 9cab23cd76a82c5418409da5c6db1671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_024
+    second: {fileID: 2100000, guid: 3cf88763f16098c4982c00953b91f225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_025
+    second: {fileID: 2100000, guid: 9de97284852b26d49a64f6b484e761a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_026
+    second: {fileID: 2100000, guid: b3c7ed81b90b233428b4dd20cdab1b2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_027
+    second: {fileID: 2100000, guid: 6b75c60b2d3e094439e4495190c86104, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_028
+    second: {fileID: 2100000, guid: 0a67e3825c1fda449bfcf94bc8263071, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_2nd floor_029
+    second: {fileID: 2100000, guid: ec5dc74140b7477449fd439f6711041b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#1_001
+    second: {fileID: 2100000, guid: 22dcf505650d79142be54b7cd1ced780, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#2_001
+    second: {fileID: 2100000, guid: cb85698deb9bfde4bbe77692a6b31ade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#3_001
+    second: {fileID: 2100000, guid: d194f4b193204fb41a82f3f05035c5e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Component#6_001
+    second: {fileID: 2100000, guid: c11b4766953a7c74886003ac0f7bf7e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Kitchen Stove_001
+    second: {fileID: 2100000, guid: 8b240d6fd27ba554bb887594526e26c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Kitchen Stove_002
+    second: {fileID: 2100000, guid: 2caa2bf7c142dae4dafc48e75c796d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Kitchen Stove_003
+    second: {fileID: 2100000, guid: 53ab8b38e9b5a7f498bed307fbe5eaf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Kitchen Stove_004
+    second: {fileID: 2100000, guid: f01743056d1ac9f41bea05991fd0bf59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Kitchen Stove_005
+    second: {fileID: 2100000, guid: d449da02a1bb2554daa3d4eeee82618f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Kitchen Stove_006
+    second: {fileID: 2100000, guid: 702ab5159e0a85e45b59fac756d95d2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Kitchen Stove_007
+    second: {fileID: 2100000, guid: 94972350fb102774eb881315c412c35e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_001
+    second: {fileID: 2100000, guid: ba217f0d031e71d40868b9f8c2801da9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_002
+    second: {fileID: 2100000, guid: f8ff428a381b2524591835d404a16fdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_003
+    second: {fileID: 2100000, guid: 7f7003e080e57b949b8306de2448c082, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_004
+    second: {fileID: 2100000, guid: c012809d01660ac45b79cbdf7046fd2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_005
+    second: {fileID: 2100000, guid: 4aef1917b36725d4bafd62bc8a84291e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_006
+    second: {fileID: 2100000, guid: ad7d922ed6552374aa5d632c3d9ed2a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_007
+    second: {fileID: 2100000, guid: 4751860ca761cf5499187cb360005f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_008
+    second: {fileID: 2100000, guid: 208879c61d147874a9e8f390d58b2305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_009
+    second: {fileID: 2100000, guid: 2bd8fd783654e404aa672adf9ab0090d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_010
+    second: {fileID: 2100000, guid: cdea0f03cfe1c1541b83c6f1cb0ec483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_011
+    second: {fileID: 2100000, guid: 9f10a72d9bcc4b5419c087c828e57f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_012
+    second: {fileID: 2100000, guid: bd4a6b221a6632748968520297daafac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_013
+    second: {fileID: 2100000, guid: 98c26001b447cae46a28dfbfdc2ef80d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_014
+    second: {fileID: 2100000, guid: 289230fe7dc6d49469030dcdc367f36a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_015
+    second: {fileID: 2100000, guid: e9ba9d7ad5bef5645a78d9d37438f2d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_016
+    second: {fileID: 2100000, guid: a4da91826f149d447bb567dd134e9bc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_017
+    second: {fileID: 2100000, guid: 360042c83cb79a544a93d54683fc1db0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_018
+    second: {fileID: 2100000, guid: ddfe864e85ba9d140ba204695ac0171a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_019
+    second: {fileID: 2100000, guid: eaa6abd179f268847a18e12d13e8edb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_020
+    second: {fileID: 2100000, guid: fb97562f9cad2f148865c2be4c862d6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_021
+    second: {fileID: 2100000, guid: e0a57a67bb4c24243a808ee0fff5551a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_022
+    second: {fileID: 2100000, guid: 7ef3b58782ad83b4dae77ef52d3170e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_023
+    second: {fileID: 2100000, guid: 43f18fc0b1b7a5c4bb3246df86ded6c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_024
+    second: {fileID: 2100000, guid: c7411ca16a2b2e54fa06d808b4265dc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_025
+    second: {fileID: 2100000, guid: e2abe8c75f3641749ae476f37d586fe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_026
+    second: {fileID: 2100000, guid: d5654c2cf414aef458032c43cdcaa700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_027
+    second: {fileID: 2100000, guid: 0124ca7df2d7e23429311de5fc9628c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_028
+    second: {fileID: 2100000, guid: 6c7fdf338bf020747a2ee3a10f04da94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_029
+    second: {fileID: 2100000, guid: e2202f2692c424742a1d687320f550c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_030
+    second: {fileID: 2100000, guid: 3ea513c8c1d31034e83eab487880fdf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Layer0_031
+    second: {fileID: 2100000, guid: 20710e2d1851169448d1919f85675a1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Refrigerator Large_001
+    second: {fileID: 2100000, guid: f52a05ab136026c458628b5daafd5247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Refrigerator Large_002
+    second: {fileID: 2100000, guid: 858802409a91dc04d8a3ef9640822fa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Refrigerator Large_003
+    second: {fileID: 2100000, guid: 2696c90858ad841489c56e0f2e80289f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Refrigerator Large_004
+    second: {fileID: 2100000, guid: 216431af8d6c77a48b3c4d4d41117b9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Refrigerator Large_005
+    second: {fileID: 2100000, guid: be49db588f2d4e64e9c4670b30202ab7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Toilet2_001
+    second: {fileID: 2100000, guid: 3a36d67eeda8cd949841837ff42942be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_Toilet2_002
+    second: {fileID: 2100000, guid: 26292786608f93e47bfdd1c1019bfa6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_roof_001
+    second: {fileID: 2100000, guid: e2680e8e5b2993040bfd1eaab0654998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_roof_002
+    second: {fileID: 2100000, guid: 1fa54759905261e40a0450b566de3a8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_roof_003
+    second: {fileID: 2100000, guid: 203fba8ec1fe7a143aa4f8e4c7e5da50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_roof_004
+    second: {fileID: 2100000, guid: bc0cd684ae6f0ce45b77c7f5343ac899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_sink and mirror_001
+    second: {fileID: 2100000, guid: b75bf3e23c7e5ae40b2ac5a19906107e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_sink and mirror_002
+    second: {fileID: 2100000, guid: 90176606f5d58dc43b583a02ff310433, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dbl_sink and mirror_003
+    second: {fileID: 2100000, guid: 497c02fcdc8e31d47b1f34b2642b7702, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

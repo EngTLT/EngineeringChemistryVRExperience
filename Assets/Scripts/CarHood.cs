@@ -59,17 +59,25 @@ public class CarHood : MonoBehaviour {
 	}
 
 	private IEnumerator Shrink() {
+		AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Fuel Cell");
+		asyncLoad.allowSceneActivation = false;
+
+		Vector3 finalPosition = new Vector3(803.79f, 47.6f, 1108.12f);
+		float t = 0;
 		while (player.transform.lossyScale.x > 0.15) {
 			Vector3 currentScale = player.transform.localScale;
 
 			player.transform.localScale = new Vector3(currentScale.x * scalingFactor, currentScale.y * scalingFactor, currentScale.z * scalingFactor);
 
-			Vector3 finalPosition = new Vector3(803.79f, 47.84f, 1108.12f);
-			player.transform.position = Vector3.Lerp(player.transform.position, finalPosition, 0.01f);
-
+			player.transform.position = Vector3.Lerp(player.transform.position, finalPosition, t);
+			t += 0.000435f;
 			yield return new WaitForEndOfFrame();
 		}
-		SceneManager.LoadScene("Fuel Cell");
+		player.transform.position = Vector3.Lerp(player.transform.position, finalPosition, 1f);
+
+
+		Manager.manager.saveTransform(player); //save players position for when level is reloaded
+		asyncLoad.allowSceneActivation = true;
 	}
 	
 }
