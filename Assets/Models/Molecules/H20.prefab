@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23104014041741850}
   - component: {fileID: 135023662382894426}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: hydrogen2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 23610119912005664}
   - component: {fileID: 135342036864075828}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: hydrogen1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 23880207540717774}
   - component: {fileID: 135694830773724314}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: oxygen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,6 +73,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4534178884519152}
+  - component: {fileID: 114944346139262334}
   m_Layer: 0
   m_Name: H20
   m_TagString: Untagged
@@ -87,7 +88,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1752929965911132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1142.9949, y: 78.13482, z: 1287.0497}
+  m_LocalPosition: {x: 5.571705, y: -3.61, z: -2.6604433}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4537137441099746}
@@ -261,6 +262,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1089477345269092}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114944346139262334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1752929965911132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21d106a679568c4598abadc5995d024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hydrogen1: {fileID: 1363720956978730}
+  hydrogen2: {fileID: 1089477345269092}
+  oxygen: {fileID: 1565301304021836}
+  electron: {fileID: 1712214919155502, guid: a42fd339d93f07844bcec71b4f8d6bed, type: 2}
 --- !u!135 &135023662382894426
 SphereCollider:
   m_ObjectHideFlags: 1

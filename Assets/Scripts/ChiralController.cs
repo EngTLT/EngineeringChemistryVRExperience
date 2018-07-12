@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ChiralController : MonoBehaviour {
-	public SteamVR_LaserPointer laser;
-	public SteamVR_TrackedController controller;
+	SteamVR_LaserPointer laser;
+	SteamVR_TrackedController controller;
 
 	private GameObject heldObject;
 
@@ -42,9 +42,9 @@ public class ChiralController : MonoBehaviour {
 			Vector2 click_dir = SteamVR_Controller.Input((int)controller.controllerIndex).GetAxis(Valve.VR.EVRButtonId.k_EButton_Axis0);
 			Debug.Log(click_dir.x);
 			if (click_dir.x > 0.4)
-				heldObject.transform.Rotate(Vector3.up, -0.5f);
+				heldObject.transform.Rotate(Vector3.up, -0.75f);
 			else if (click_dir.x < -0.4)
-				heldObject.transform.Rotate(Vector3.up, 0.5f);
+				heldObject.transform.Rotate(Vector3.up, 0.75f);
 		}
 	}
 }

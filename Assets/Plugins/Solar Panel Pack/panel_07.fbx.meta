@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 68e3e1ac42c07294d8e761647dac90e3
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: cube_01_high1
+    100002: cube_01_high10
+    100004: cube_01_high11
+    100006: cube_01_high12
+    100008: cube_01_high2
+    100010: cube_01_high3
+    100012: cube_01_high4
+    100014: cube_01_high5
+    100016: cube_01_high6
+    100018: cube_01_high7
+    100020: cube_01_high8
+    100022: cube_01_high9
+    100024: group1
+    100026: group2
+    100028: //RootNode
+    100030: pCylinder11
+    100032: pCylinder34
+    100034: pCylinder35
+    100036: pCylinder36
+    100038: polySurface2
+    100040: polySurface4
+    100042: Solar_P_05
+    400000: cube_01_high1
+    400002: cube_01_high10
+    400004: cube_01_high11
+    400006: cube_01_high12
+    400008: cube_01_high2
+    400010: cube_01_high3
+    400012: cube_01_high4
+    400014: cube_01_high5
+    400016: cube_01_high6
+    400018: cube_01_high7
+    400020: cube_01_high8
+    400022: cube_01_high9
+    400024: group1
+    400026: group2
+    400028: //RootNode
+    400030: pCylinder11
+    400032: pCylinder34
+    400034: pCylinder35
+    400036: pCylinder36
+    400038: polySurface2
+    400040: polySurface4
+    400042: Solar_P_05
+    2300000: cube_01_high1
+    2300002: cube_01_high10
+    2300004: cube_01_high11
+    2300006: cube_01_high12
+    2300008: cube_01_high2
+    2300010: cube_01_high3
+    2300012: cube_01_high4
+    2300014: cube_01_high5
+    2300016: cube_01_high6
+    2300018: cube_01_high7
+    2300020: cube_01_high8
+    2300022: cube_01_high9
+    2300024: pCylinder11
+    2300026: pCylinder34
+    2300028: pCylinder35
+    2300030: pCylinder36
+    2300032: polySurface2
+    2300034: polySurface4
+    3300000: cube_01_high1
+    3300002: cube_01_high10
+    3300004: cube_01_high11
+    3300006: cube_01_high12
+    3300008: cube_01_high2
+    3300010: cube_01_high3
+    3300012: cube_01_high4
+    3300014: cube_01_high5
+    3300016: cube_01_high6
+    3300018: cube_01_high7
+    3300020: cube_01_high8
+    3300022: cube_01_high9
+    3300024: pCylinder11
+    3300026: pCylinder34
+    3300028: pCylinder35
+    3300030: pCylinder36
+    3300032: polySurface2
+    3300034: polySurface4
+    4300000: pCylinder11
+    4300002: polySurface2
+    4300004: pCylinder34
+    4300006: pCylinder36
+    4300008: polySurface4
+    4300010: pCylinder35
+    4300012: cube_01_high1
+    4300014: cube_01_high2
+    4300016: cube_01_high3
+    4300018: cube_01_high4
+    4300020: cube_01_high5
+    4300022: cube_01_high6
+    4300024: cube_01_high7
+    4300026: cube_01_high8
+    4300028: cube_01_high9
+    4300030: cube_01_high10
+    4300032: cube_01_high11
+    4300034: cube_01_high12
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holder07
+    second: {fileID: 2100000, guid: 1b23036b59d527c4da6f72cb37bd30b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holder11
+    second: {fileID: 2100000, guid: d8a6776ed4dae604d98b91b569446a05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: holder12
+    second: {fileID: 2100000, guid: 7b548773a19796f4f801af56d74cb970, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: solar_panel_01
+    second: {fileID: 2100000, guid: 1207156c30500af4bbe89a8b63e8263a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

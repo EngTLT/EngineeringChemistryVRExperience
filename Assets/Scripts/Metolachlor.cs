@@ -9,7 +9,7 @@ public class Metolachlor : MonoBehaviour {
 	private static Quaternion rotation;
 	private static int positionIndex = 0; //index used so that each molecule doesn't end up in the same position
 
-	Vector3[] positions = new[] { new Vector3(21.76f, 8.78f, 18f), new Vector3(19.2f, 8.78f, 27.34f) };
+	Vector3[] positions = new[] { new Vector3(20.32f, 8.78f, 19.78f), new Vector3(18.03f, 8.78f, 25.41f) };
 
 	private int count;
 	// Use this for initialization

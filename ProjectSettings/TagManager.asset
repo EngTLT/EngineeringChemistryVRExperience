@@ -11,6 +11,8 @@ TagManager:
   - H2
   - H
   - Metolachlor
+  - oxygen
+  - Solar Panel
   layers:
   - Default
   - TransparentFX
