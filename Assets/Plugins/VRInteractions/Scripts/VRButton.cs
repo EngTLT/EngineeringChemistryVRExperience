@@ -2,6 +2,7 @@
 using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// VR button event. Used for registering callbacks in the editor
@@ -66,6 +67,9 @@ public class VRButton : VRInteractable {
 	{
 		if (Interactable == false)
 			return;
+
+		//THIS IS MAX'S PERSONAL ADDITION TO LOAD WOLFE ISLAND HUB AS AN EXIT
+		StartCoroutine(LoadNewScene());
 		
 		if (ButtonListeners != null) { // Trigger our callbacks
 			ButtonListeners.Invoke (this);
@@ -83,4 +87,12 @@ public class VRButton : VRInteractable {
 //	{
 //		base.Update ();
 //	}
+
+	IEnumerator LoadNewScene() {
+		yield return new WaitForSeconds(1.5f);
+		if (gameObject.name == "Button to Wolfe")
+			SceneManager.LoadScene("WolfeIslandLanding");
+		else if (gameObject.name == "Button to Electrolyzer")
+			SceneManager.LoadScene("Electrolyzer");
+	}
 }

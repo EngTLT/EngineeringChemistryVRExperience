@@ -21,9 +21,11 @@ public class MoveFerry : MonoBehaviour {
 		}
 		else {
 			camRig.transform.parent = null;
-			Manager.manager.loadTransform(camRig);
-			Destroy(GameObject.Find("removableHood"));
-			StartCoroutine(Grow());
+			camRig.transform.position = new Vector3(755f, 40.2f , 1100f);
+			camRig.transform.rotation = Quaternion.Euler(0, 46f, 0);
+			//Manager.manager.loadTransform(camRig);
+			//Destroy(GameObject.Find("removableHood"));
+			//StartCoroutine(Grow());
 		}
 	}
 
@@ -46,28 +48,28 @@ public class MoveFerry : MonoBehaviour {
 		camRig.transform.parent = null;
 	}
 
-	private IEnumerator Grow() {
-		Vector3 finalPosition = new Vector3(802.39f, 45.5f, 1110.04f);
-		float t = 0;
+	//private IEnumerator Grow() {
+	//	Vector3 finalPosition = new Vector3(802.39f, 45.5f, 1110.04f);
+	//	float t = 0;
 
-		yield return new WaitForSeconds(2f);
-		while (camRig.transform.lossyScale.x < 2.6) {
-			Vector3 currentScale = camRig.transform.localScale;
+	//	yield return new WaitForSeconds(2f);
+	//	while (camRig.transform.lossyScale.x < 2.6) {
+	//		Vector3 currentScale = camRig.transform.localScale;
 
-			camRig.transform.localScale = new Vector3(currentScale.x / scalingFactor, currentScale.y / scalingFactor, currentScale.z / scalingFactor);
+	//		camRig.transform.localScale = new Vector3(currentScale.x / scalingFactor, currentScale.y / scalingFactor, currentScale.z / scalingFactor);
 
-			camRig.transform.position = Vector3.Lerp(Manager.manager.playerPosition, finalPosition, t) + new Vector3(0, 2 * (1f - Mathf.Pow(t - 1f, 2)), 0);
-			t += 0.002f;
-			yield return new WaitForEndOfFrame();
-		}
+	//		camRig.transform.position = Vector3.Lerp(Manager.manager.playerPosition, finalPosition, t) + new Vector3(0, 2 * (1f - Mathf.Pow(t - 1f, 2)), 0);
+	//		t += 0.002f;
+	//		yield return new WaitForEndOfFrame();
+	//	}
 
-		Manager.manager.playerPosition = camRig.transform.position;
-		t = 0;
-		while (t < 1) {//finish moving player
-			camRig.transform.position = Vector3.Lerp(Manager.manager.playerPosition, finalPosition, t);
-			t += 0.004f;
-			yield return new WaitForEndOfFrame();
-		}
-		Destroy(this.gameObject); //TODO: instead of destroy, set at final position?
-	}
+	//	Manager.manager.playerPosition = camRig.transform.position;
+	//	t = 0;
+	//	while (t < 1) {//finish moving player
+	//		camRig.transform.position = Vector3.Lerp(Manager.manager.playerPosition, finalPosition, t);
+	//		t += 0.004f;
+	//		yield return new WaitForEndOfFrame();
+	//	}
+	//	Destroy(this.gameObject); //TODO: instead of destroy, set at final position?
+	//}
 }

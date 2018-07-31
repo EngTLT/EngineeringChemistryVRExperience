@@ -83,14 +83,14 @@ public class VRGripper : MonoBehaviour {
 
 	void OnCollisionEnter(Collision _collision)
 	{
-		Debug.Log ("COlliding Dfsdf");
+		//Debug.Log ("COlliding Dfsdf");
 		// If we're not already holding something or colliding then play our response
 		if (isColliding == false && isGripping == false) {
 			
 			//var device = SteamVR_Controller.Input ((int)CurrentController.index);
 			//device.TriggerHapticPulse (HapticPulseStrength, Valve.VR.EVRButtonId.k_EButton_SteamVR_Touchpad);
 			StartCoroutine(LongVibration(HapticPulseStrength, VibrationLength));
-			CurrentAudio.Play ();
+			//CurrentAudio.Play ();
 			isColliding = true;
 		}
 	}

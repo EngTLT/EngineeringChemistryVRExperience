@@ -18,7 +18,7 @@ public class Electrolyzer : MonoBehaviour {
 			spawnY = Random.Range(-2.8f, 2.8f);
 			spawnZ = Random.Range(-2.8f, 2.8f);
 
-			Instantiate(H2O, new Vector3(5, spawnY, spawnZ-15), randomQuaternion());
+			Instantiate(H2O, new Vector3(23, spawnY, spawnZ-15), randomQuaternion());
 
 
 			yield return new WaitForSeconds(3);

@@ -55,12 +55,13 @@ public class Metolachlor : MonoBehaviour {
 		Vector3 EndPos = positions[positionIndex++];
 		yield return new WaitForSeconds(6); //wait before bringing out chemicals
 
-		for(float t = 0; t <= 1; t += 0.005f) {
+		for(float t = 0; t <= 1; t += 0.01f) {
 			transform.position = Vector3.Slerp(StartPos, EndPos, t);
 			transform.localScale = new Vector3(t / 2, t / 2, t / 2);
 			count = 0;
 			yield return new WaitForEndOfFrame();
 		}
+		tag = "Metolachlor";
 		rotating = true;
 	}
 }

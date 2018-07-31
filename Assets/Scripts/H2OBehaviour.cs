@@ -54,7 +54,7 @@ public class H2OBehaviour : MonoBehaviour {
 		}
 
 		hydrogen1start = hydrogen1.transform.position;
-		hydrogen1end = hydrogen1.transform.position + new Vector3(-15f, 0, 0);
+		hydrogen1end = hydrogen1.transform.position + new Vector3(-25f, 0, 0);
 
 		for (float t = 0; t < 1; t += 0.001f) {
 			hydrogen1.transform.position = Vector3.Lerp(hydrogen1start, hydrogen1end, t);
@@ -69,7 +69,6 @@ public class H2OBehaviour : MonoBehaviour {
 		GameObject otherOxygen = GameObject.FindWithTag("oxygen");
 		if(otherOxygen == null || otherOxygen == oxygen) {
 			yield return null;
-			Debug.Log("Waiting");
 		}
 		else {
 			otherOxygen.tag = "O2";

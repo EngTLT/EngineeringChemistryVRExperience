@@ -224,8 +224,16 @@ namespace Valve.VR.InteractionSystem
 			if ( !string.IsNullOrEmpty( switchToScene ) )
 			{
 				Debug.Log( "TeleportPoint: Hook up your level loading logic to switch to new scene: " + switchToScene );
-				//Manager.manager.LoadFerryAsync();
-				SceneManager.LoadSceneAsync("WolfeIslandLanding");
+				
+
+				if (gameObject.name == "TeleportPoint to Solar")
+					SceneManager.LoadScene("Solar Farm");
+				else if (gameObject.name == "TeleportPoint to Farm")
+					SceneManager.LoadScene("Farm");
+				else if (gameObject.name == "TeleportPoint to Stream")
+					SceneManager.LoadScene("Stream");
+				else
+					SceneManager.LoadScene("WolfeIslandLanding");
 			}
 			else
 			{

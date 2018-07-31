@@ -33,8 +33,10 @@ public class ChiralController : MonoBehaviour {
 	}
 
 	void LaserRelease(object sender, ClickedEventArgs e) {
-		heldObject.transform.parent = null;
-		heldObject = null;
+		if (heldObject != null) {
+			heldObject.transform.parent = null;
+			heldObject = null;
+		}
 	}
 
 	void Rotate() {

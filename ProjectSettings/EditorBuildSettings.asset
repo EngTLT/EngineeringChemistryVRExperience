@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/WolfeIslandLanding.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Fuel Cell.unity
+    path: Assets/Scenes/Electrolyzer.unity
     guid: a9b7089b93f2cb146bf561f1193ab16a
+  - enabled: 1
+    path: Assets/Scenes/Farm.unity
+    guid: 145ae3fed557c17428a11b61a3d634e5
+  - enabled: 1
+    path: Assets/Scenes/Solar Farm.unity
+    guid: 06daa80c2e2393140abe446b5cb6250a
+  - enabled: 1
+    path: Assets/Scenes/Stream.unity
+    guid: 8923256e3dcbb904db319946604b3d38
   m_configObjects: {}

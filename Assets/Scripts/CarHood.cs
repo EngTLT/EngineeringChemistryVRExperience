@@ -76,7 +76,7 @@ public class CarHood : MonoBehaviour {
 		player.transform.position = Vector3.Lerp(player.transform.position, finalPosition, 1f);
 
 
-		Manager.manager.saveTransform(player); //save players position for when level is reloaded
+		//Manager.manager.saveTransform(player); //save players position for when level is reloaded
 		asyncLoad.allowSceneActivation = true;
 	}
 	

@@ -20,9 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4472651830175998}
   - component: {fileID: 114134020434539444}
+  - component: {fileID: 135253418193871822}
   m_Layer: 0
   m_Name: Metolachlor_S
-  m_TagString: Untagged
+  m_TagString: Metolachlor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -495,9 +496,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1043698595744072}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.214783, y: 8.78, z: 24.47522}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalRotation: {x: -0, y: 0.28151426, z: -0, w: 0.9595571}
+  m_LocalPosition: {x: 20.32, y: 8.779991, z: 19.780008}
+  m_LocalScale: {x: 0.4999996, y: 0.4999996, z: 0.4999996}
   m_Children:
   - {fileID: 4110466263022518}
   - {fileID: 4206109752602600}
@@ -673,7 +674,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1494248295266360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09000015, y: 1.039999, z: -1.420002}
+  m_LocalPosition: {x: -0.34, y: 0.975, z: -1.305}
   m_LocalScale: {x: 1.04, y: 1.04, z: 1.04}
   m_Children: []
   m_Father: {fileID: 4472651830175998}
@@ -1586,6 +1587,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f019cc50b8844f94483697f462fe7ac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &135253418193871822
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043698595744072}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4.64
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &135533238031257890
 SphereCollider:
   m_ObjectHideFlags: 1

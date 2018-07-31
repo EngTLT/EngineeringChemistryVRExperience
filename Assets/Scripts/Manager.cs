@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 	public static Manager manager;
-	public bool firstLoad; //has the main scene been loaded yet?
-
-	public Vector3 playerPosition, playerScale;
-	public Quaternion playerQuaternion;
+	public bool firstLoad;
+	
+	void Start() {
+		firstLoad = true;
+	}
 
 	void Awake() {
 		if(manager == null) {
@@ -18,18 +19,6 @@ public class Manager : MonoBehaviour {
 		}
 		DontDestroyOnLoad(this.gameObject);
 		firstLoad = true; //scene has not been loaded yet
-	}
-
-	public void saveTransform(GameObject player) {
-		playerPosition = player.transform.position;
-		playerScale = player.transform.localScale;
-		playerQuaternion = player.transform.rotation;
-	}
-
-	public void loadTransform(GameObject player) {
-		player.transform.position = playerPosition;
-		player.transform.localScale = playerScale; ;
-		player.transform.rotation = playerQuaternion;
 	}
 
 	public void LoadFerryAsync() {

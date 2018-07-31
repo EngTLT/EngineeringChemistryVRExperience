@@ -13,6 +13,9 @@ TagManager:
   - Metolachlor
   - oxygen
   - Solar Panel
+  - Fire
+  - Battery Fluid
+  - Bubbles
   layers:
   - Default
   - TransparentFX
