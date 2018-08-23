@@ -36,7 +36,6 @@ public class Spectrometer : MonoBehaviour {
 		float transmittance = Mathf.Abs(1700f - wavenumber);
 		if ( transmittance < 100) {
 			pointer.transform.localEulerAngles = new Vector3(pointerStart.x, pointerStart.y, -120 + (Mathf.Abs(transmittance-100)/100 * 283)); //I'll be honest, I don't fully understand the math here, took me a lot of trial and error to get this work so trust that it will update the gauge appropriately
-			//pointer.transform.localEulerAngles = Vector3.Lerp(pointerStart, pointerEnd, transmittance/100);
 		}
 
 		outputText.text = wavenumber.ToString();

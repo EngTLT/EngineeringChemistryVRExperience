@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LeverPanelLink : MonoBehaviour {
-	public VRLever Lever;
-	ParticleSystem[] Bubbles;
-	private GameObject[] panels;
-	private GameObject refPanel, light;
-	GameObject[] liquid;
+	public GameObject gaugePointer; //pointer on the power gauge
+	Vector3 pointerStart; //start angle of gaugePointer
+
+	public VRLever Lever; //lever that player manipulates to rotate panels
+	ParticleSystem[] Bubbles; //bubble effect in hydrogen tanks
+	private GameObject[] panels; //solar panels themselves
+	private GameObject refPanel, light; //refPanel is just a panel that is used to get the angles of all the panels
+	GameObject[] liquid; //liquid in hydrogen tanks that recedes when they are filled
 
 	float sunPanelAngle;
 
@@ -28,6 +31,10 @@ public class LeverPanelLink : MonoBehaviour {
 			var emissions = Bubble.emission;
 			emissions.rateOverTime = 0;
 		}
+
+		//save pointers start position on gauge for power level
+		pointerStart = gaugePointer.transform.localEulerAngles;
+
 	}
 
 	void Update() {
@@ -39,6 +46,10 @@ public class LeverPanelLink : MonoBehaviour {
 		}
 
 		if(sunPanelAngle < 45) {
+			//show power level on gauge by rotating the pointer
+			gaugePointer.transform.localEulerAngles = new Vector3(pointerStart.x, pointerStart.y, -120 + ((45f - sunPanelAngle) / 45 * 283));
+
+			//update rate of bubble emission based on angle between the panel and sun
 			for (int i = 0; i < Bubbles.Length; i++) {
 				var emission = Bubbles[i].emission;
 				emission.rateOverTime = Mathf.Abs(sunPanelAngle - 45) / 5; // divide by 45 to normalize, multiply by 5 to get proper emmision rate
