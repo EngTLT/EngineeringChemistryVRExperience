@@ -38,10 +38,10 @@ public class LeverPanelLink : MonoBehaviour {
 	}
 
 	void Update() {
-		sunPanelAngle = Mathf.Abs(refPanel.transform.rotation.eulerAngles.y + 180f - light.transform.rotation.eulerAngles.y);
+		sunPanelAngle = Mathf.Abs(refPanel.transform.rotation.eulerAngles.y + 180f - light.transform.rotation.eulerAngles.y); //angle between sun and panels
 
-		if (Mathf.Abs(Lever.Value - 0.5f) > 0.2f) {
-			foreach (GameObject panel in panels)
+		if (Mathf.Abs(Lever.Value - 0.5f) > 0.2f) { //if lever is pulled past a certain threshold
+			foreach (GameObject panel in panels) //update the rotation of all the panels
 				panel.transform.Rotate(transform.up, Lever.Value - 0.5f);
 		}
 

@@ -8,13 +8,8 @@ public class H2OBehaviour : MonoBehaviour {
 	// Use this for initialization
 	void Start() {
 		StartCoroutine(Move());
-		
 	}
 
-	// Update is called once per frame
-	void Update() {
-
-	}
 
 	IEnumerator Move() {
 		float spawnZ, spawnY;
@@ -34,9 +29,7 @@ public class H2OBehaviour : MonoBehaviour {
 		oxygen.tag = "oxygen";
 
 		hydrogen1.transform.parent = null;
-		//hydrogen1.transform.rotation = Quaternion.identity;
 		hydrogen2.transform.parent = hydrogen1.transform;
-		//hydrogen2.transform.rotation = Quaternion.identity;
 
 		Instantiate(electron, hydrogen1.transform.position, Quaternion.identity);
 		yield return new WaitForSeconds(0.3f);

@@ -23,9 +23,6 @@ public class MoveFerry : MonoBehaviour {
 			camRig.transform.parent = null;
 			camRig.transform.position = new Vector3(755f, 40.2f , 1100f);
 			camRig.transform.rotation = Quaternion.Euler(0, 46f, 0);
-			//Manager.manager.loadTransform(camRig);
-			//Destroy(GameObject.Find("removableHood"));
-			//StartCoroutine(Grow());
 		}
 	}
 

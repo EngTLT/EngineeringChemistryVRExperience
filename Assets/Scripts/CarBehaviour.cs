@@ -20,9 +20,6 @@ public class CarBehaviour : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Mathf.Abs(transform.position.x - path[current].transform.position.x) > 2 && Mathf.Abs(transform.position.z - path[current].transform.position.z) > 2) {//if car has not reached waypoint
-			//Vector3 pos = Vector3.MoveTowards(transform.position, path[current].transform.position, speed * Time.deltaTime);
-			//rigid.MovePosition(pos);
-			//rigid.velocity = (path[current].transform.position - transform.position).normalized * speed;
 			
 			if(count > 10) {
 				rigid.velocity = (path[current].transform.position - transform.position).normalized * speed;

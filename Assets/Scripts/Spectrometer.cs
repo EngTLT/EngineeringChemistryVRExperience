@@ -53,20 +53,20 @@ public class Spectrometer : MonoBehaviour {
 		opened = true;
 		Vector3 xaxis = new Vector3 ( 1, 0, 0 );
 
-		for(float i = 0; i < 205; i += 1f) {
+		for(float i = 0; i < 205; i += 1f) { //open lids
 			leftLid.transform.Rotate(xaxis, -1f);
 			rightLid.transform.Rotate(xaxis, 1f);
 
 			yield return new WaitForEndOfFrame();
 		}
 
-		for (float i = 0; i < 0.244; i += 0.01f) {
+		for (float i = 0; i < 0.244; i += 0.01f) { //raise control panel to player
 			controlPanel.transform.Translate(transform.up / 100, Space.World);
 
 			yield return new WaitForEndOfFrame();
-
-			dial.GetComponent<DialSpectrometer>().EnableDial(); //dial can now be used
 		}
+
+		dial.GetComponent<DialSpectrometer>().EnableDial(); //dial can now be used
 
 	}
 }
