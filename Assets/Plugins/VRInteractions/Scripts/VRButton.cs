@@ -78,15 +78,7 @@ public class VRButton : VRInteractable {
 		foreach (VRGripper gripper in ActiveControllers) { // Trigger a response on any active controllers
 			gripper.HapticVibration(0.112f, TriggerHapticStrength);
 		}
-
-
 	}
-
-//  This is just here as a reminder to call base. Will remove the need to do this in future versions
-//	void Update()
-//	{
-//		base.Update ();
-//	}
 
 	IEnumerator LoadNewScene() {
 		yield return new WaitForSeconds(1.5f);
