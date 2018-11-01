@@ -15,9 +15,9 @@ public class Manager : MonoBehaviour {
 		if(manager == null) {
 			manager = this;
 		}else if(manager != null) {
-			Destroy(this.gameObject);
+			Destroy(gameObject);
 		}
-		DontDestroyOnLoad(this.gameObject);
+		DontDestroyOnLoad(gameObject);
 		firstLoad = true; //scene has not been loaded yet
 	}
 
@@ -31,5 +31,6 @@ public class Manager : MonoBehaviour {
 		asyncLoad.allowSceneActivation = false;
 		while (!asyncLoad.isDone && count++ < 900) { Debug.Log("Loading"); yield return null; } //load scene fully before transitioning
 		asyncLoad.allowSceneActivation = true;
+        NarrationHandler.instance.PlayLine(0); //play introduction line
 	}
 }

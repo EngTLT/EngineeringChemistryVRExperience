@@ -1,0 +1,35 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NarrationHandler : MonoBehaviour {
+
+    public static NarrationHandler instance;
+
+    AudioSource player;
+
+    public AudioClip[] narrationLines;
+
+    private void Awake()
+    {
+        if (instance == null)
+            instance = this;
+        else if (instance != this)
+            Destroy(gameObject);
+
+        player = GetComponent<AudioSource>();
+    }
+
+    public void PlayLine(int index) //index is the line to play
+    {
+        if(index >= narrationLines.Length)
+        {
+            Debug.LogError("Index " + index + " is out of bounds for Narration Handler");
+        }
+        else
+        {
+            player.PlayOneShot(narrationLines[index]);
+        }
+
+    }
+}
