@@ -9,6 +9,7 @@ public class Electrolyzer : MonoBehaviour {
 	// Use this for initialization
 	void Start() {
 		StartCoroutine(Spawn());
+        GetComponent<AudioSource>().PlayDelayed(5);
 	}
 
 	IEnumerator Spawn() {

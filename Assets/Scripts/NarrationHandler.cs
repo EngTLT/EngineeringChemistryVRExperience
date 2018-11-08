@@ -34,7 +34,7 @@ public class NarrationHandler : MonoBehaviour {
 
     }
 
-    public IEnumerator PlayLineDelayed(int index, int delayTime) //bit of l
+    public IEnumerator PlayLineDelayed(int index, int delayTime) 
     {
         if (index >= narrationLines.Length)
         {
