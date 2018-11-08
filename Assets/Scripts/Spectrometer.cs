@@ -45,8 +45,11 @@ public class Spectrometer : MonoBehaviour {
 	}
 
 	public void Open() {
-		if(!opened)
-			StartCoroutine(OpenBox());
+        if (!opened)
+        {
+            StartCoroutine(OpenBox());
+            StartCoroutine(NarrationHandler.instance.PlayLineDelayed(2, 20));
+        }
 	}
 
 	IEnumerator OpenBox() {

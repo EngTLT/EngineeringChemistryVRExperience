@@ -53,7 +53,7 @@ public class Metolachlor : MonoBehaviour {
 	IEnumerator EnterScene() {
 		Vector3 StartPos = transform.position;
 		Vector3 EndPos = positions[positionIndex++];
-		yield return new WaitForSeconds(6); //wait before bringing out chemicals
+		yield return new WaitForSeconds(26); //wait before bringing out chemicals
 
 		for(float t = 0; t <= 1; t += 0.01f) {
 			transform.position = Vector3.Slerp(StartPos, EndPos, t);

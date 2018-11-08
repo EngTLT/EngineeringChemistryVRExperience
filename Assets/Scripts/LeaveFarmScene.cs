@@ -9,15 +9,15 @@ public class LeaveFarmScene : MonoBehaviour {
 	SteamVR_TrackedController left, right;
 	// Use this for initialization
 	void Start () {
-		StartCoroutine(Leave());
+		//StartCoroutine(Leave());
 		right = GetComponent<SteamVR_TrackedController>();
 		left = otherHand.GetComponent<SteamVR_TrackedController>();
 	}
 
 	void Update() {
 		if (tip.activeInHierarchy) {
-			if (left.triggerPressed && right.triggerPressed)
-				SceneManager.LoadScene("WolfeIslandLanding");
+			//if (left.triggerPressed && right.triggerPressed)
+				//SceneManager.LoadScene("WolfeIslandLanding");
 		}
 	}
 
