@@ -31,6 +31,7 @@ public class Manager : MonoBehaviour {
 		asyncLoad.allowSceneActivation = false;
 		while (!asyncLoad.isDone && count++ < 900) { Debug.Log("Loading"); yield return null; } //load scene fully before transitioning
 		asyncLoad.allowSceneActivation = true;
+        yield return new WaitForSeconds(4);
         NarrationHandler.instance.PlayLine(0); //play introduction line
 	}
 }

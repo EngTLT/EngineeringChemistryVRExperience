@@ -33,4 +33,17 @@ public class NarrationHandler : MonoBehaviour {
         }
 
     }
+
+    public IEnumerator PlayLineDelayed(int index, int delayTime) //bit of l
+    {
+        if (index >= narrationLines.Length)
+        {
+            Debug.LogError("Index " + index + " is out of bounds for Narration Handler");
+        }
+        else
+        {
+            yield return new WaitForSeconds(delayTime);
+            player.PlayOneShot(narrationLines[index]);
+        }
+    }
 }

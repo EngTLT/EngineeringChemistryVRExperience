@@ -30,7 +30,7 @@ public class CarBehaviour : MonoBehaviour {
 		}
 		else {
 			if (current >= path.Length-1)
-				Destroy(this.gameObject);
+				Destroy(gameObject);
 
 			current++;
 
