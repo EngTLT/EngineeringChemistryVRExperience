@@ -9,7 +9,8 @@ public class Manager : MonoBehaviour {
 	
 	void Start() {
 		firstLoad = true;
-	}
+        StartCoroutine(NarrationHandler.instance.PlayLineDelayed(0, 4));
+    }
 
 	void Awake() {
 		if(manager == null) {

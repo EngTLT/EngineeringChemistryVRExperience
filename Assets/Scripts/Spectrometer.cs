@@ -20,6 +20,8 @@ public class Spectrometer : MonoBehaviour {
 
 		pointerStart = pointer.transform.localEulerAngles;
 		pointerEnd = new Vector3(pointerStart.x, pointerStart.y, -34f);
+
+        Open();
 	}
 
 	// Update is called once per frame
@@ -54,7 +56,7 @@ public class Spectrometer : MonoBehaviour {
 
 	IEnumerator OpenBox() {
 		opened = true;
-		Vector3 xaxis = new Vector3 ( 1, 0, 0 );
+        Vector3 xaxis = new Vector3 ( 1, 0, 0 );
 
 		for(float i = 0; i < 205; i += 1f) { //open lids
 			leftLid.transform.Rotate(xaxis, -1f);
