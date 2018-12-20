@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Electrolyzer : MonoBehaviour {
 	public GameObject H2O;
@@ -10,6 +11,7 @@ public class Electrolyzer : MonoBehaviour {
 	void Start() {
 		StartCoroutine(Spawn());
         GetComponent<AudioSource>().PlayDelayed(5);
+        StartCoroutine(SceneTransition());
 	}
 
 	IEnumerator Spawn() {
@@ -40,4 +42,10 @@ public class Electrolyzer : MonoBehaviour {
 
 		return quat;
 	}
+
+    IEnumerator SceneTransition()
+    {
+        yield return new WaitForSeconds(40);
+        SceneManager.LoadScene("WolfeIslandLanding");
+    }
 }
