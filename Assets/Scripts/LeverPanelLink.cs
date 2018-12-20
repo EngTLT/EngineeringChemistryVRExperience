@@ -59,15 +59,15 @@ public class LeverPanelLink : MonoBehaviour {
 			}
 		}
 
-        if(liquid[0].transform.position.z < 1.03)
+        if(liquid[0].transform.localPosition.z < 1.03)
         {
             StartCoroutine(LevelTransition());
-        }
-				
+        }		
 	}
 
     IEnumerator LevelTransition()
     {
+        Debug.Log("did this happen?");
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("Electrolyzer"); //TODO: SHOUDL THIS BE SOMEWHERE MORE OBVIOUS?
     }
