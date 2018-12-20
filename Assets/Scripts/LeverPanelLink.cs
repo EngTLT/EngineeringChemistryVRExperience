@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LeverPanelLink : MonoBehaviour {
 	public GameObject gaugePointer; //pointer on the power gauge
@@ -57,8 +58,18 @@ public class LeverPanelLink : MonoBehaviour {
 				liquid[i].transform.Translate(0, (sunPanelAngle - 45) / 100000, 0);
 			}
 		}
+
+        if(liquid[0].transform.position.z < 1.03)
+        {
+            StartCoroutine(LevelTransition());
+        }
 				
 	}
 
+    IEnumerator LevelTransition()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("Electrolyzer"); //TODO: SHOUDL THIS BE SOMEWHERE MORE OBVIOUS?
+    }
 
 }
