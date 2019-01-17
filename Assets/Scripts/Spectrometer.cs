@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class Spectrometer : MonoBehaviour {
 	public GameObject leftLid, rightLid, controlPanel, dial, pointer;
@@ -50,7 +51,8 @@ public class Spectrometer : MonoBehaviour {
         if (!opened)
         {
             StartCoroutine(OpenBox());
-            StartCoroutine(NarrationHandler.instance.PlayLineDelayed(2, 20));
+            StartCoroutine(NarrationHandler.instance.PlayLineDelayed(2, 120));
+            StartCoroutine(ExitStreamScene());
         }
 	}
 
@@ -74,4 +76,9 @@ public class Spectrometer : MonoBehaviour {
 		dial.GetComponent<DialSpectrometer>().EnableDial(); //dial can now be used
 
 	}
+    IEnumerator ExitStreamScene()
+    {
+        yield return new WaitForSeconds(210);
+        SceneManager.LoadScene("WolfeIslandLanding");
+    }
 }
