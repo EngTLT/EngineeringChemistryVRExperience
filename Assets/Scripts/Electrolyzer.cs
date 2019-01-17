@@ -45,7 +45,7 @@ public class Electrolyzer : MonoBehaviour {
 
     IEnumerator SceneTransition()
     {
-        yield return new WaitForSeconds(40);
+        yield return new WaitForSeconds(70);
         SceneManager.LoadScene("WolfeIslandLanding");
     }
 }

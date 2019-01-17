@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChiralityNarrationController : MonoBehaviour {
 
@@ -9,10 +10,13 @@ public class ChiralityNarrationController : MonoBehaviour {
         StartCoroutine(NarrationHandler.instance.PlayLineDelayed(0, 3));
         StartCoroutine(NarrationHandler.instance.PlayLineDelayed(1, 26));
         StartCoroutine(NarrationHandler.instance.PlayLineDelayed(2, 90));
+        StartCoroutine(ExitChiralityScene());
+    }
+
+    IEnumerator ExitChiralityScene()
+    {
+        yield return new WaitForSeconds(105);
+        SceneManager.LoadScene("WolfeIslandLanding");
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
