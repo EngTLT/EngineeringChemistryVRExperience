@@ -78,7 +78,7 @@ public class Spectrometer : MonoBehaviour {
 	}
     IEnumerator ExitStreamScene()
     {
-        yield return new WaitForSeconds(210);
+        yield return new WaitForSeconds(120);
         SceneManager.LoadScene("WolfeIslandLanding");
     }
 }
